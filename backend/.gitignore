@@ -1,0 +1,26 @@
+# Environment & secrets
+.env
+*.env
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uploads & runtime data
+uploads/
+*.pcap
+*.log
+
+# ML artifacts (large / regenerable)
+models/*.joblib
+models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db

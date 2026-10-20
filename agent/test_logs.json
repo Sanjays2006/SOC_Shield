@@ -1,0 +1,5 @@
+{"event_type":"alert","src_ip":"1.1.1.1","alert":{"signature":"Low Level Scan"},"http":{"url":"home"}}
+{"event_type":"alert","src_ip":"8.8.4.4","alert":{"signature":"Medium Suspicious Activity"},"http":{"url":"normal"}}
+{"event_type":"alert","src_ip":"185.199.108.153","alert":{"signature":"XSS Attack"},"http":{"url":"<script>alert(1)</script>"}}
+{"event_type":"alert","src_ip":"139.130.4.5","alert":{"signature":"SQL Injection"},"http":{"url":"id=1 UNION SELECT"}}
+{"event_type":"alert","src_ip":"45.33.32.156","alert":{"signature":"Advanced Attack"},"http":{"url":"<script> UNION SELECT password"}}
