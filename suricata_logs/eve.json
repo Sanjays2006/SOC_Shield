@@ -1,0 +1,59 @@
+{"event_type":"alert","src_ip":"1.1.1.1","alert":{"signature":"Low Level Scan"},"http":{"url":"home"}}
+{"event_type":"alert","src_ip":"8.8.8.8","alert":{"signature":"Low Level Scan"},"http":{"url":"index"}}
+{"event_type":"alert","src_ip":"52.95.110.1","alert":{"signature":"Low Level Scan"},"http":{"url":"login"}}
+
+{"event_type":"alert","src_ip":"91.198.174.192","alert":{"signature":"Medium Suspicious Activity"},"http":{"url":"normal"}}
+{"event_type":"alert","src_ip":"142.250.183.206","alert":{"signature":"Medium Suspicious Activity"},"http":{"url":"test"}}
+{"event_type":"alert","src_ip":"31.13.71.36","alert":{"signature":"Medium Suspicious Activity"},"http":{"url":"check"}}
+
+{"event_type":"alert","src_ip":"185.199.108.153","alert":{"signature":"XSS Attack"},"http":{"url":"<script>alert(1)</script>"}}
+{"event_type":"alert","src_ip":"172.217.160.142","alert":{"signature":"XSS Attack"},"http":{"url":"<script>evil()</script>"}}
+{"event_type":"alert","src_ip":"104.244.42.1","alert":{"signature":"XSS Attack"},"http":{"url":"<script>hack()</script>"}}
+
+{"event_type":"alert","src_ip":"139.130.4.5","alert":{"signature":"SQL Injection"},"http":{"url":"id=1 UNION SELECT"}}
+{"event_type":"alert","src_ip":"203.0.113.45","alert":{"signature":"SQL Injection"},"http":{"url":"admin' OR 1=1--"}}
+{"event_type":"alert","src_ip":"198.51.100.23","alert":{"signature":"SQL Injection"},"http":{"url":"id=5 UNION SELECT password"}}
+
+{"event_type":"alert","src_ip":"45.33.32.156","alert":{"signature":"Advanced Attack"},"http":{"url":"<script> UNION SELECT password"}}
+{"event_type":"alert","src_ip":"103.21.244.0","alert":{"signature":"Advanced Attack"},"http":{"url":"<script>steal()</script>"}}
+{"event_type":"alert","src_ip":"151.101.1.69","alert":{"signature":"Advanced Attack"},"http":{"url":"DROP TABLE users"}}
+
+{"event_type":"alert","src_ip":"13.107.21.200","alert":{"signature":"Critical Exploit Attempt"},"http":{"url":"rm -rf /"}}
+{"event_type":"alert","src_ip":"34.117.59.81","alert":{"signature":"Critical Exploit Attempt"},"http":{"url":"wget malicious.sh"}}
+{"event_type":"alert","src_ip":"54.239.28.85","alert":{"signature":"Critical Exploit Attempt"},"http":{"url":"curl badsite.com"}}
+
+{"event_type":"alert","src_ip":"185.220.101.1","alert":{"signature":"Port Scan"},"http":{"url":"scan"}}
+{"event_type":"alert","src_ip":"37.120.145.45","alert":{"signature":"Port Scan"},"http":{"url":"probe"}}
+{"event_type":"alert","src_ip":"5.188.10.20","alert":{"signature":"Port Scan"},"http":{"url":"discover"}}
+
+{"event_type":"alert","src_ip":"103.27.9.10","alert":{"signature":"Brute Force Login"},"http":{"url":"login"}}
+{"event_type":"alert","src_ip":"45.76.23.98","alert":{"signature":"Brute Force Login"},"http":{"url":"admin"}}
+{"event_type":"alert","src_ip":"139.59.12.87","alert":{"signature":"Brute Force Login"},"http":{"url":"wp-login"}}
+
+{"event_type":"alert","src_ip":"66.249.66.1","alert":{"signature":"Bot Crawling"},"http":{"url":"index"}}
+{"event_type":"alert","src_ip":"157.240.20.35","alert":{"signature":"Bot Crawling"},"http":{"url":"home"}}
+{"event_type":"alert","src_ip":"20.190.128.1","alert":{"signature":"Bot Crawling"},"http":{"url":"search"}}
+
+{"event_type":"alert","src_ip":"91.134.183.44","alert":{"signature":"XSS Attack"},"http":{"url":"<script>alert('x')</script>"}}
+{"event_type":"alert","src_ip":"178.62.75.23","alert":{"signature":"XSS Attack"},"http":{"url":"<script>document.cookie</script>"}}
+{"event_type":"alert","src_ip":"51.158.68.133","alert":{"signature":"XSS Attack"},"http":{"url":"<script>steal()</script>"}}
+
+{"event_type":"alert","src_ip":"203.205.132.10","alert":{"signature":"SQL Injection"},"http":{"url":"id=1 UNION SELECT"}}
+{"event_type":"alert","src_ip":"182.176.45.23","alert":{"signature":"SQL Injection"},"http":{"url":"' OR '1'='1"}}
+{"event_type":"alert","src_ip":"27.102.114.5","alert":{"signature":"SQL Injection"},"http":{"url":"admin'--"}}
+
+{"event_type":"alert","src_ip":"102.165.35.2","alert":{"signature":"Malware Drop"},"http":{"url":"download.exe"}}
+{"event_type":"alert","src_ip":"197.210.45.90","alert":{"signature":"Malware Drop"},"http":{"url":"payload.bin"}}
+{"event_type":"alert","src_ip":"154.72.198.12","alert":{"signature":"Malware Drop"},"http":{"url":"virus.sh"}}
+
+{"event_type":"alert","src_ip":"190.92.34.21","alert":{"signature":"DDoS Attempt"},"http":{"url":"flood"}}
+{"event_type":"alert","src_ip":"181.177.90.11","alert":{"signature":"DDoS Attempt"},"http":{"url":"traffic"}}
+{"event_type":"alert","src_ip":"200.89.178.33","alert":{"signature":"DDoS Attempt"},"http":{"url":"overload"}}
+
+{"event_type":"alert","src_ip":"13.66.140.1","alert":{"signature":"Privilege Escalation"},"http":{"url":"sudo exploit"}}
+{"event_type":"alert","src_ip":"52.174.22.10","alert":{"signature":"Privilege Escalation"},"http":{"url":"root access"}}
+{"event_type":"alert","src_ip":"40.112.72.205","alert":{"signature":"Privilege Escalation"},"http":{"url":"kernel exploit"}}
+
+{"event_type":"alert","src_ip":"8.34.92.17","alert":{"signature":"Zero-Day Exploit"},"http":{"url":"unknown payload"}}
+{"event_type":"alert","src_ip":"23.227.38.32","alert":{"signature":"Zero-Day Exploit"},"http":{"url":"hidden exploit"}}
+{"event_type":"alert","src_ip":"104.16.132.229","alert":{"signature":"Critical Exploit Attempt"},"http":{"url":"stealth attack"}}
